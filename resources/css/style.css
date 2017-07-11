@@ -1,0 +1,38 @@
+body {
+  font-size: 18px;
+}
+
+.header {
+  font-size: 1rem;
+  font-family: Helvetica;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo img {
+  height: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 0.5rem;
+  opacity: 1;
+}
+
+.name p {
+  margin-top: 0.66rem;
+  margin-bottom: 0.66rem;
+}
+
+
+/* main banner */
+
+.banner {
+  background-image: url("../images/moto.jpeg");
+
+}
