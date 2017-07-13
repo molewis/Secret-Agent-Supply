@@ -1,5 +1,7 @@
 body {
   font-size: 18px;
+  font-family: Helvetica;
+  color: white;
 }
 
 .header {
@@ -7,7 +9,6 @@ body {
   font-family: Helvetica;
   font-weight: bold;
   text-transform: uppercase;
-  color: white;
   background-color: black;
   width: 100%;
   position: fixed;
@@ -37,6 +38,7 @@ body {
   padding-top: 2.25rem;
   min-height: 25rem;
   width: 100%;
+
 }
 
 .innerbox {
@@ -46,8 +48,6 @@ body {
   display: block;
   margin-top: 9rem;
   padding: 2rem 3rem;
-
-
 }
 
 .title {
@@ -63,4 +63,65 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   margin-top: 0.25rem;
+}
+
+/* nav */
+.nav {
+  background-color: firebrick;
+}
+
+#links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: bold;
+}
+
+
+/* .products {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+} */
+
+.products img {
+  border: 4px solid black;
+}
+
+.products p {
+  background-color: black;
+  margin-top: 0;
+}
+
+
+
+/* location */
+.location h2 {
+  background-color: black;
+}
+
+.location p {
+  color: black;
+}
+
+
+/* hours */
+.hours h2 {
+  background-color: black;
+}
+
+.hours p {
+  color: black;
+}
+
+
+/* footer */
+.footer {
+  background-color: black;
+  text-align: left;
+  min-height: 5rem;
+  display: flex;
+  align-items: center;
 }
